@@ -10,7 +10,9 @@ export default {
 	components: {
 	},
 	mounted() {
-		this.init();
+		setTimeout(()=>{
+			this.init();
+		},2000)
 	},
 	methods: {
 		init() {
@@ -63,12 +65,11 @@ export default {
 				},
 			});
 
-			graph.read(data);
+			graph.data(data);
+			graph.render();
 		}
 	}
 }
 </script>
 
-<style>
-@import '../assets/font/iconfont.css';
-</style>
+

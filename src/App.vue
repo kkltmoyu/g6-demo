@@ -9,6 +9,8 @@
 </template>
 
 <style>
+@import './assets/font/iconfont.css';
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -30,3 +32,4 @@
   color: #42b983;
 }
 </style>
+
