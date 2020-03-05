@@ -10,9 +10,10 @@ export default {
 	components: {
 	},
 	mounted() {
-		setTimeout(()=>{
+		console.log('mounted')
+		// setTimeout(()=>{
 			this.init();
-		},2000)
+		// },5000)
 	},
 	methods: {
 		init() {
@@ -22,7 +23,7 @@ export default {
 					x: 100,
 					y: 200,
 					name: "image",
-					label: "\ue600",
+					label: "\ue602",
 					itemType: "node",
 					// text: '\ue600',
 					text: "gaah",
