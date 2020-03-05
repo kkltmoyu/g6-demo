@@ -11,9 +11,9 @@ export default {
 	},
 	mounted() {
 		console.log('mounted')
-		// setTimeout(()=>{
+		setTimeout(()=>{
 			this.init();
-		// },5000)
+		},5000)
 	},
 	methods: {
 		init() {
@@ -25,7 +25,6 @@ export default {
 					name: "image",
 					label: "\ue602",
 					itemType: "node",
-					// text: '\ue600',
 					text: "gaah",
 					size: 60,
 					type: "image",
