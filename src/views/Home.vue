@@ -11,7 +11,9 @@ export default {
 	},
 	mounted() {
 		console.log('mounted')
+		setTimeout(()=>{
 			this.init();
+		},1000)
 	},
 	methods: {
 		init() {

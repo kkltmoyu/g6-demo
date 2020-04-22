@@ -3,7 +3,7 @@
         <i class="iconfont iconicon_docker-image"></i>
         <div id="nav">
             <router-link to="/">Home</router-link> |
-            <router-link to="/about">About</router-link>
+            <router-link to="/about">自定义布局demo</router-link>
         </div>
         <router-view />
     </div>
